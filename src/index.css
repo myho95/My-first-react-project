@@ -1,0 +1,39 @@
+body {
+  font: 30px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+
+.square {
+  background: rgb(173, 255, 186);
+  border: 1px solid rgb(6, 83, 13);
+  float: left;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 54px;
+  height: 100px;
+  width: 100px;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
+  background: pink;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
