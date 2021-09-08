@@ -11,6 +11,9 @@ ul {
 .status {
   margin-bottom: 20px;
 }
+.move-list {
+  font-size: 0.8em;
+}
 
 .square {
   background: rgb(173, 255, 186);
@@ -36,4 +39,14 @@ ul {
   clear: both;
   content: "";
   display: table;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.game-info {
+  margin-left: 40px;
 }
